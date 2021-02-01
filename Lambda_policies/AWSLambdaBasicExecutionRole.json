@@ -4,7 +4,7 @@
         {
             "Effect": "Allow",
             "Action": "logs:CreateLogGroup",
-            "Resource": "arn:aws:logs:region:773355335634:*"  
+            "Resource": "arn:aws:logs:region:XXXXXXXXXXXX:*"  
         },
         {
             "Effect": "Allow",
@@ -13,7 +13,7 @@
                 "logs:PutLogEvents"
             ],
             "Resource": [
-                "arn:aws:logs:region:773355335634:log-group:*"
+                "arn:aws:logs:region:XXXXXXXXXXXX:log-group:*"
             ]
         }
     ]
